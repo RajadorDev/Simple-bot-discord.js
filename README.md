@@ -8,7 +8,7 @@
 * Use: `npm init` to start 
 * Install discord js API: `npm install discord.js`
 * Set your bot token in `botinfo.js`
-* Run your bot using the command `node bot.js` in the terminal.
+* Run your bot using the command `node index.js` in the terminal.
 
 # My discord group:
 
