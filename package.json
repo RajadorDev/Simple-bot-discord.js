@@ -1,0 +1,24 @@
+{
+  "name": "simple-bot-discord",
+  "version": "1.0.0",
+  "description": "Simple discord bot with slash command /ping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajadorDev/Simple-bot-discord.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajadorDev/Simple-bot-discord.js/issues"
+  },
+  "homepage": "https://github.com/RajadorDev/Simple-bot-discord.js#readme",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "dotnet": "^1.1.4"
+  }
+}
