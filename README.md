@@ -1,17 +1,25 @@
 # Simple Bot 
+> This bot has a simple structure with loading and logging commands
+> This bot comes with a default command `/ping`, but you can add your own commands by creating a new folder inside `src/commands/` and placing your command files there.
 
-**This is a simple bot startup in discord.js**
+# Instalation
+- You can install this bot easily using this command in your **terminal**:
+```bash
+npm install @rajador/simple-bot-discord
+```
 
-# Instalation 
-* Make sure you have Node.js installed on your computer. 
-* Create a new directory, extract this repository and open it in the terminal.
-* Use: `npm init` to start 
-* Install discord js API: `npm install discord.js`
-* Set your bot token in `botinfo.js`
-* Run your bot using the command `node index.js` in the terminal.
+- After you install the package, you need to create your `.env` file, you can use the `.env.example` file and add your values
 
-# My discord group:
+```env
+# Your discord bot token
+DISCORD_BOT_TOKEN=YOUR_TOKEN_HERE
+# Your discord bot client ID
+CLIENT_ID=YOUR_CLIENT_ID_HERE
+```
 
-[Rajador Developer](https://discord.gg/KGusJvF2EW)
+- After you put your bot values, you can use this command in your terminal to start the bot:
 
+```bash
+npm start
+```
 

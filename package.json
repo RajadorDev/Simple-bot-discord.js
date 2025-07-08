@@ -1,5 +1,5 @@
 {
-  "name": "simple-bot-discord",
+  "name": "@rajador/simple-bot-discord",
   "version": "1.0.0",
   "description": "Simple discord bot with slash command /ping",
   "main": "src/index.js",
@@ -21,5 +21,8 @@
     "discord.js": "^14.19.3",
     "dotenv": "^16.5.0",
     "dotnet": "^1.1.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
