@@ -8,12 +8,12 @@ module.exports = {
      * @param {CommandInteraction} interaction 
      */
     async execute(interaction) {
-        const time = interaction.createdAt.getTime() - Date.now();
+        const time = Date.now() - interaction.createdAt.getTime();
         const timeFormatted = time.toFixed(2);
         await interaction.reply(
             {
                 flags: MessageFlags.Ephemeral,
-                content: `Bot ping: \`${timeFormatted}\``
+                content: `Bot ping: \`${timeFormatted}ms\``
             }
         );
     }
