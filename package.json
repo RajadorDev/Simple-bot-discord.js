@@ -2,9 +2,10 @@
   "name": "simple-bot-discord",
   "version": "1.0.0",
   "description": "Simple discord bot with slash command /ping",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
