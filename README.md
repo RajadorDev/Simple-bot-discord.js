@@ -5,7 +5,8 @@
 # Instalation
 - You can install this bot easily using this command in your **terminal**:
 ```bash
-npm install @rajador/simple-bot-discord
+git clone https://github.com/RajadorDev/Simple-bot-discord.js.git
+cd Simple-bot-discord.js
 ```
 
 - After you install the package, you need to create your `.env` file, you can use the `.env.example` file and add your values
