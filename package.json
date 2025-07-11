@@ -1,6 +1,6 @@
 {
   "name": "@rajador/simple-bot-discord",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Simple discord bot with slash command /ping",
   "main": "src/index.js",
   "scripts": {
